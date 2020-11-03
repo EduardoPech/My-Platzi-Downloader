@@ -5,8 +5,8 @@ import time
 
 # GLOBAL VARIABLES
 PLATZI_MAIN_URL = "https://platzi.com/clases/"
-USER_NAME = "josemilciadesvitovis@gmail.com"# "devil64dev@gmail.com"
-PASSWORD = "uiDfX%=ypo%sPz"# "vg70-edCNn-b-g"
+USER_NAME = input(" -> Ingrese su usuario (correo): ")
+PASSWORD = input(" ->Ingrese su contraseña: ")
 TOOL_NAME = "youtube-dl"
 SLEEP_INTERVAL = 10
 MAX_SLEEP_INTERVAL = "15"
